@@ -1,0 +1,111 @@
+body{
+    background-color: rgb(0, 0, 0);
+    background-image: url(https://cdn.glitch.global/5b358bce-71c2-42dc-94c1-3dd7a49a97cd/IMG_2629.jpeg?v=1686238726406);
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: 93% 700px;
+    padding: 50px;
+}
+.div{
+
+    background-color: black;
+    text-align: center;
+    color:aquamarine;
+    align-items: center;
+    border-style: double;
+    border-color: darkseagreen;
+}
+
+.div2 {
+    background-color: black;
+    text-align: center;
+    color: #7fffd4;
+    border-style: double;
+    border-color: darkseagreen;
+    display:flex;
+    /*flex-direction:column;*/
+    justify-content: center;
+    align-items:flex-start;
+    flex-wrap: wrap;
+    height: 100%; /* Adjust as needed */
+    width: 100%;
+    padding: 20px;
+}
+.controls {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+.specials{
+    display:flex;
+    align-items:center;
+    flex-direction: column;
+    margin-top: auto;
+}
+.image{
+    max-width: 100%;
+    height: auto;
+}
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 0 4px;
+}
+
+/* Create four equal columns that sits next to each other */
+.column {
+  flex: 30%;
+  max-width: 30%;
+  padding: 0 4px;
+}
+
+.column img {
+  margin-top: 8px;
+  vertical-align: middle;
+  width: 100%;
+}
+
+/* Responsive layout - makes a two column-layout instead of four columns */
+@media screen and (max-width: 800px) {
+  .column {
+    flex: 50%;
+    max-width: 50%;
+  }
+}
+
+/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+  .column {
+    flex: 100%;
+    max-width: 100%;
+  }
+}
+
+.text{
+    color:aquamarine;
+}
+.button{
+    background-color: orangered;
+    border-style: double;
+    border-color: darkseagreen;
+    color:aquamarine;
+    padding: 10px;
+
+
+}
+.b:link{
+    color: aquamarine;
+    text-decoration: none;
+}
+
+.b:visited{
+    color: aquamarine;
+    text-decoration: none;
+}
+footer{
+    background-color: orangered;
+    border-style:groove;
+    border-color: darkseagreen;
+    padding: 30px;
+
+}
