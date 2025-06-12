@@ -35,6 +35,9 @@ body{
     display: flex;
     flex-direction: column;
     gap: 15px;
+    border-radius:100%;
+    border: 10;
+    padding: 42px 12px;
 }
 .specials{
     display:flex;
